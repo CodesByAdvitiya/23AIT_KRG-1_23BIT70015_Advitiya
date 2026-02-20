@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`matches snapshot 1`] = `
+<div>
+  <h2>
+    Welcome, 
+    Adi
+  </h2>
+</div>
+`;
