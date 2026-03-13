@@ -1,0 +1,19 @@
+React State Management and Component Rendering Develop a React functional component named ActivityManager to record and display environmental activities performed by a user. Functional Requirements 
+1. Activity Input Create a form with the following input fields: 
+	Activity Name (text input) 
+	Category (dropdown with options: Travel, Energy, Waste) 
+	Carbon Saved (kg) (numeric input) 
+	Add a button labeled “Add Activity”. 
+	When the button is clicked: The activity should be stored in a state variable The form fields should be cleared after submission Use 	React useState hook for managing form values and activity data. 
+2. Display Activities Display all added activities in a table format with the following columns: 
+	| Activity Name | Category | Carbon Saved (kg) | 
+	Each newly added activity must appear immediately in the table. 
+3. Initial Data Loading When the component loads, the following sample activities should be automatically added using useEffect. 
+	[ { name: "Cycling", category: "Travel", carbon: 2 }, 
+	{ name: "Solar Usage", category: "Energy", carbon: 5 } ] 
+4. Total Carbon Saved Display the total carbon saved by summing the values of all activities. 
+	Example: Total Carbon Saved: 7 kg The value should update dynamically whenever a new activity is added. 
+	Constraints Use React Functional Components Use Hooks (useState, useEffect) Do not use external libraries Maintain proper component
+	structure and JSX formatting
+
+Done 2nd and 4th
